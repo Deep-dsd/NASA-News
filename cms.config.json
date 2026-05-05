@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "schemaVersion": 1,
+  "projectName": "My Site",
+  "media": {
+    "folder": "public/uploads"
+  },
+  "collections": [
+    {
+      "name": "test",
+      "label": "Test",
+      "folder": "content/test",
+      "format": "json",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "new_field",
+          "label": "New Field",
+          "type": "list",
+          "itemType": "image"
+        },
+        {
+          "name": "new_field_1",
+          "label": "New Field",
+          "type": "number"
+        }
+      ]
+    }
+  ]
+}
